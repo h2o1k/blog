@@ -11,6 +11,7 @@ puts markdown.to_html
 ```
 
 任务清单 "-[]", "-[x]"
--[] ddd
--[x] ddd
+
+- [] ddd
+- [x] ddd
 
