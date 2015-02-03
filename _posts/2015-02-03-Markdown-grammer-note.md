@@ -107,14 +107,16 @@ ___
 3. 链接自动识别
 4. 围栏式代码块 代码块包裹在```之间
 5. 语法着色
+
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
-6. 任务清单 "- []", "- [x]"
-- [] ddd
-- [x] ddd
+
+6. 任务清单 "-[]", "-[x]"
+-[] ddd
+-[x] ddd
 7. 快速引用
 8. Emoji 表情符号的自动补全
 9. Issue 的自动补全
