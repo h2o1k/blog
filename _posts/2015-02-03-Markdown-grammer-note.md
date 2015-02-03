@@ -115,14 +115,17 @@ puts markdown.to_html
 ```
 
 6. 任务清单 "-[]", "-[x]"
--[] ddd
--[x] ddd
 7. 快速引用
 8. Emoji 表情符号的自动补全
 9. Issue 的自动补全
 10. 禅意模式（全屏书写模式）
 11. 事件引用
 12. 实现
+
+dddd
+
+- [] aa
+- [x] bb
 
 #参考
 1. [Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)
