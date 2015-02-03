@@ -1,5 +1,6 @@
 
 #个人博客
 
-[欢迎访问](blog.h2o1k.net)
+[欢迎访问](http://blog.h2o1k.net)
+
 
