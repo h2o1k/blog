@@ -101,5 +101,30 @@ you've got to put paragraph tags in your blockquotes:
 ___
 
 
+#九、GitHub风格的Markdown语法
+1. 换行
+2. 单词中的多个下划线
+3. 链接自动识别
+4. 围栏式代码块 代码块包裹在```之间
+5. 语法着色
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+6. 任务清单 "- []", "- [x]"
+- [] ddd
+- [x] ddd
+7. 快速引用
+8. Emoji 表情符号的自动补全
+9. Issue 的自动补全
+10. 禅意模式（全屏书写模式）
+11. 事件引用
+12. 实现
+
 #参考
 1. [Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)
+2. [标准 Markdown 语法指南](http://daringfireball.net/projects/markdown/syntax)
+3. [GitHub 风格 Markdown 语法指南](http://daringfireball.net/projects/markdown/syntax)
+4. [GitHub 风格 Markdown 语法指南(译)](https://github.com/cssmagic/blog/issues/13)
+5. [Markdown 扩展语法指南](https://michelf.ca/projects/php-markdown/extra/)
